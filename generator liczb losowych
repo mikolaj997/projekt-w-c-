@@ -34,6 +34,11 @@ namespace ToToLotek
             foreach(int numer in numery)
             {
                 Console.Write(numer + ", ");
+                 if (numer == 6)
+                {
+                    Console.WriteLine("wygrałeś");
+                }
+                  else { Console.WriteLine("próbój dalej"); }
             }
 
             Console.ReadKey();
